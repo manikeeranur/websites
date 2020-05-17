@@ -1,0 +1,105 @@
+@media screen and (max-width: 680px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 15px;
+  }
+  input[type="submit"] {
+    width: 100px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid var(--bg-color);
+  }
+  nav {
+    display: none;
+  }
+  .homepage {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+  .home-image {
+    width: 100%;
+  }
+  .home-details {
+    padding: 5% 0 0 25%;
+    text-align: center;
+  }
+  .about-image {
+    display: none;
+  }
+  .about-details {
+    width: 100%;
+  }
+  .about-details li {
+    font-size: 1rem;
+  }
+  #about {
+    font-size: 3rem;
+    text-align: center;
+  }
+  #resume {
+    font-size: 3rem;
+    text-align: center;
+  }
+  #resume + p {
+    padding: 0;
+  }
+  .resume {
+    width: 70%;
+  }
+  .service {
+    margin: 20px auto;
+    border-radius: 0;
+  }
+  #services {
+    font-size: 3rem;
+  }
+  .skillspage .line {
+    width: 300px;
+    height: 10px;
+  }
+  .skillspage .loading {
+    background-color: var(--main-color);
+  }
+  .skillspage p {
+    font-size: 20px;
+  }
+  .images {
+    width: 100%;
+    height: 200px;
+  }
+  .blog {
+    padding-top: 20%;
+  }
+  .blogbgdetails {
+    top: 6%;
+    text-align: center;
+  }
+  #submit4 {
+    transition: background-color 2s linear;
+  }
+  #submit4:hover {
+    background-color: skyblue;
+  }
+  #contact {
+    margin-top: -300px;
+  }
+  .contact {
+    flex-direction: column;
+  }
+  .contact-details {
+    flex-direction: column;
+  }
+  .contactimg {
+    display: none;
+  }
+  .contactdetails {
+    width: 100%;
+  }
+}
